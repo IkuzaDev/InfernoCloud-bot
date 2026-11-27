@@ -107,7 +107,7 @@ sudo apt install -y g++ make cmake binutils git \
 2. Clone repositori:
 
 ```bash
-git clone https://github.com/yourusername/infernocloud-bot.git
+git clone https://github.com/IkuzaDev/InfernoCloud-bot.git
 cd infernocloud-bot
 ```
 
@@ -141,7 +141,7 @@ vcpkg install boost:x64-windows openssl:x64-windows curl:x64-windows zlib:x64-wi
 4. Clone repositori:
 
 ```cmd
-git clone https://github.com/yourusername/infernocloud-bot.git
+git clone https://github.com/IkuzaDev/InfernoCloud-bot.git
 cd infernocloud-bot
 ```
 
@@ -168,7 +168,7 @@ pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-boost mingw-w64-x86_64-openssl m
 3. Clone dan build:
 
 ```bash
-git clone https://github.com/yourusername/infernocloud-bot.git
+git clone https://github.com/IkuzaDev/InfernoCloud-bot.git
 cd infernocloud-bot
 mkdir build && cd build
 cmake -G "MSYS Makefiles" ..
@@ -192,7 +192,7 @@ brew install cmake boost openssl curl
 3. Clone dan build:
 
 ```bash
-git clone https://github.com/yourusername/infernocloud-bot.git
+git clone https://github.com/IkuzaDev/InfernoCloud-bot.git
 cd infernocloud-bot
 mkdir build && cd build
 cmake .. -DOPENSSL_ROOT_DIR=$(brew --prefix openssl)
